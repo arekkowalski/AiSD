@@ -1,3 +1,3 @@
 def zadanie1(litera, nazwisko):
     return litera + ". "+ nazwisko
-print(zad1("A", "Kowalski"))
+print(zadanie1("A", "Kowalski"))
