@@ -1,0 +1,13 @@
+Niech g będzie grafem nieważonym nieskierowanym (obiektem klasy Graph z lab 7).
+W grafie odtworzyć nastepującą sieć społecznościową, gdzie postaci oznaczone inicjałami będą wierzchołkami,
+a znajomi będą sąsiadami pierwszego stopnia:
+
+VI ma następujących znajomych: CH, RU i PA.
+RU ma następujących znajomych: RA, SU i VI.
+PA ma następujących znajomych: CO, KE.
+CO ma następujących znajomych: RU, VI.
+
+Przygotować funkcję friend_path(g: Graph, f0: Any, f1: Any) -> List[Any], która zwróci wszystkie postaci, którzy stanowią
+najkrótsze połączenie pomiędzy postaciami o inicjałach przekazanych w parametrach f0 i f1.
+
+Celem sprawdzenia rozwiązania przygotować 3 dowolne grafy testowe.
